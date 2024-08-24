@@ -75,3 +75,67 @@
 
 // console.log(user);
 //LECTURE-4 ARRAY IN JS//
+//for in loops
+// let heros = ["hulk", "spiderMan", "superMan", "shaktiMan"];
+
+// for (let ind = 0; ind < heros.length; ind++) {
+//   console.log(heros[ind]);
+// }
+//for of
+// for(let el of heros){
+//     console.log(el)
+// }
+//practics question//
+
+// let Marks = [20, 40, 50, 90, 40];
+// let sum = 0;
+// for (let val of Marks) {
+//   sum += val;
+// }
+// console.log(sum);
+// let avg = sum / Marks.length;
+// console.log(`the total average sum ${avg}`);
+
+1; //
+// let items = [200, 400, 600, 300, 500];
+// let i = 0;
+// for (let itms of items) {
+//   let offer = itms / 20;
+//   items[i] = items[i] - offer;
+//   console.log(`value after ${items[i]}`);
+//   i++;
+// }
+
+2; //
+// for (let i = 0; i < items.length; i++) {
+//   let offer = items[i] / 10;
+//   items[i] -= offer;
+// }
+// console.log(items);
+
+//array methods in js
+let companies = ["Bloomberg", "uber", "IBM", "GOOGLE", "Microsoft", "Netflix"];
+//1 Remove the first companies in an array
+// console.log(companies);
+// let final = companies.splice(0, 1);
+// console.log(final);
+// console.log(companies);
+//2.............. Remove the uber and add the ola at this place in array;.................
+// let final = companies.splice(1, 1, "ola");
+// console.log(final);
+// console.log(companies);
+//3*********** add the Amazon to the end***************//
+// let addi = companies.push("Amazon");
+// console.log(addi);
+// console.log(companies);
+// console.log("g" * 3);
+// function Multi(a, b) {
+//   return a * b;
+// }
+
+// let Final = Multi(9, 12);
+// console.log(Final);
+
+// let a = 25;
+let b = sqrt(456);
+console.log(b);
