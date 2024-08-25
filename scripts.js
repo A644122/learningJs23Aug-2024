@@ -137,5 +137,3 @@ let companies = ["Bloomberg", "uber", "IBM", "GOOGLE", "Microsoft", "Netflix"];
 // console.log(Final);
 
 // let a = 25;
-let b = sqrt(456);
-console.log(b);
