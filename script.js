@@ -237,9 +237,12 @@ catch(err){
 //javascript question interview//
 
 // console.log(a);
-console.log(name);
-let name;
+// console.log(name);
+// let name;
 // /HOF//
 
-function abcd(card) {}
-abcd();
+// function abcd(card) {}
+// abcd();
+let srt = "javascript";
+let str1 = srt.replace("javascript", "love javascript");
+console.log(str1);
