@@ -1,0 +1,62 @@
+.container {
+  margin: 50px auto;
+  width: 600px;
+  height: 550px;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: gray;
+}
+.heading {
+  font-size: 34px;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+}
+.amount {
+  padding: 20px;
+  margin: 20px;
+}
+.para {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fild {
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  font-weight: 800;
+}
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.btn {
+  padding: 5px;
+  background-color: black;
+  width: 100px;
+  height: 50px;
+  color: rgb(233, 227, 227);
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+.flag {
+  /* border: 1px solid green; */
+  border-radius: 5px;
+  width: 30px;
+  height: 40px;
+}
+.elem {
+  width: 60px;
+  border: 1px solid black;
+  border: none;
+  outline: none;
+}
+.heading3 {
+  margin: 20px;
+  font-size: 30px;
+  color: pink;
+}
