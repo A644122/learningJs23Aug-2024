@@ -38,19 +38,34 @@
 //   });
 // });
 
-//promise chainng//
-function getdata(data) {
+//promisess chainng//
+// function getdata(data) {
+//   return new Promise((res) => {
+//     setTimeout(() => {
+//       console.log("data1", data);
+//       res("sucess");
+//     }, 4000);
+//   });
+// }
+// getdata(1).then((res) => {
+//   console.log("getting data 2..");
+//   getdata(2).then((res) => {
+//     console.log("getting data 3...");
+//     getdata(3).then((res) => {});
+//   });
+// });
+
+// async-Await///
+function getdata(dataID) {
   return new Promise((res) => {
     setTimeout(() => {
-      console.log("data1", data);
+      console.log("data1", dataID);
       res("sucess");
-    }, 4000);
+    }, 3000);
   });
 }
-getdata(1).then((res) => {
-  console.log("getting data 2..");
-  getdata(2).then((res) => {
-    console.log("getting data 3...");
-    getdata(3).then((res) => {});
-  });
-});
+async function getAlldata() {
+  await getdata(1);
+  await getdata(2);
+  await getdata(3);
+}
